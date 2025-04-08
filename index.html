@@ -1,5 +1,74 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Welcome
+subtitle: I'm Riccardo Nocella — Engineer, Developer, and Explorer of All Things Tech
 ---
+
+Hi, I'm **Riccardo**, an Information Engineer passionate about machine learning, clean code, and creative digital solutions.  
+I code in Python, C++, Go, PHP, HTML, and JavaScript — and I never shy away from a new challenge.
+
+When I’m not writing code or deploying systems, I enjoy sports, fishing, snowboarding, and occasionally breaking my own gym records.
+
+### 🛠️ Featured Projects
+
+Here are a few things I've been building recently:
+
+<!-- <div class="row">
+  <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+      <img class="card-img-top" src="assets/img/project1.jpg" alt="Project 1">
+      <div class="card-body">
+        <p class="card-text"><strong>AI Malware Dashboard</strong><br>A system that automates Android malware analysis using CrewAI and MobSF, complete with FastAPI backend and SvelteKit frontend.</p>
+        <a href="/projects/malware-dashboard" class="btn btn-sm btn-outline-primary">View project</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+      <img class="card-img-top" src="assets/img/project2.jpg" alt="Project 2">
+      <div class="card-body">
+        <p class="card-text"><strong>Dermatology SaaS Platform</strong><br>A privacy-first multi-tenant Laravel + Svelte app for dermatologists, powered by AI mole classification and patient dashboards.</p>
+        <a href="/projects/derma-saas" class="btn btn-sm btn-outline-primary">View project</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+      <img class="card-img-top" src="assets/img/project3.jpg" alt="Project 3">
+      <div class="card-body">
+        <p class="card-text"><strong>Crypto News Bot</strong><br>A Telegram + Web bot that reads news, analyzes market sentiment, and trades crypto using AI + Reinforcement Learning strategies.</p>
+        <a href="/projects/crypto-bot" class="btn btn-sm btn-outline-primary">View project</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+### 🗞️ News
+
+<!-- - 📢 **Apr 2025** – Launched my AI-powered Android Malware Analysis platform with Dockerized microservices and FastAPI + MobSF.
+- 🧪 **Mar 2025** – Started a fun experiment where an LLM teaches a Reinforcement Learning agent to play chess.
+- 🩺 **Feb 2025** – Released the beta version of my Dermatologist SaaS with mole classification AI and SvelteKit frontend.
+- 📈 **Jan 2025** – My Crypto News Bot started auto-trading with real-time sentiment from news and tweets! -->
+
+### 📝 Latest Blog Posts
+
+{% for post in site.posts limit:3 %}
+- [{{ post.title }}]({{ post.url }}) <small><em>({{ post.date | date_to_string }})</em></small>
+{% endfor %}
+
+👉 See the full [blog archive](/blog) for more insights.
+
+---
+
+### ☎️ Let's Connect
+
+I'm always open to new collaborations, freelance gigs, or tech talks over coffee ☕.  
+You can [contact me here](mailto:rinocs92@gmail.com) or connect on [GitHub](https://github.com/rinocs).
+
+> *"Code is like fishing: patience, technique, and the thrill of the catch."*
+
+---
+
+*Thanks for stopping by! Scroll up, explore more, or check out the [About me](/about) page if you're curious about the person behind the pixels.*
