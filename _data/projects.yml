@@ -1,0 +1,14 @@
+- title: "Malware Detection Dashboard"
+  description: "A real-time dashboard for analyzing malware using CrewAI and MobSF."
+  url: "/projects/malware-dashboard"
+  image: "/assets/img/project-malware.jpg"
+  
+- title: "Mole Classification System"
+  description: "An AI-driven system for classifying moles as benign or malignant using CNN and Transformers."
+  url: "/projects/mole-classification"
+  image: "/assets/img/project-mole.jpg"
+
+- title: "Gym Management System"
+  description: "A fully-featured web app for managing gym exercises and workout routines."
+  url: "/projects/gym-management"
+  image: "/assets/img/project-gym.jpg"
