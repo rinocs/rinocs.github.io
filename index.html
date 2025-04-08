@@ -14,21 +14,21 @@ subtitle: Software Engineer · ML Enthusiast · Builder
 
   <div class="carousel-inner rounded shadow">
     <div class="carousel-item active">
-      <img src="/assets/img/hero-ml.jpg" class="d-block w-100" alt="Machine Learning">
+      <img src="/assets/img/ml.png" class="d-block w-100" alt="Machine Learning">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Machine Learning Engineer</h5>
         <p>Crafting intelligent systems with Python and AI.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/hero-projects.jpg" class="d-block w-100" alt="Projects">
+      <img src="/assets/img/hero-full.jpg" class="d-block w-100" alt="Projects">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Full-stack Developer</h5>
         <p>From backend APIs to beautiful UIs — I build it all.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/hero-outdoors.jpg" class="d-block w-100" alt="Outdoor Life">
+      <img src="/assets/img/hero-snow.jpeg" class="d-block w-100" alt="Outdoor Life">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Work-Life Balance</h5>
         <p>Gym, snowboarding, and casting lines keep me grounded.</p>
@@ -76,24 +76,6 @@ subtitle: Software Engineer · ML Enthusiast · Builder
   </ul>
 </div>
 
-<!-- Blog Preview Section -->
-<div class="container mt-5">
-  <h2 class="mb-3">📝 Latest Blog Posts</h2>
-  <div class="row">
-    {% for post in site.posts limit:3 %}
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
-            <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-            <a href="{{ post.url }}" class="btn btn-sm btn-primary">Read more →</a>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <a href="/blog" class="btn btn-outline-primary mt-3">View all posts</a>
-</div>
 
 <!-- Project Preview Section -->
 <div class="container mt-5">
