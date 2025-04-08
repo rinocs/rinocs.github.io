@@ -31,7 +31,7 @@ Here are some of my favorite or recent projects. I love blending code with creat
         </p>
         <a href="/projects/derma-saas" class="btn btn-outline-primary btn-sm">View Project</a>
       </div>
-    </div> -->
-  </div>
+    </div>
+  </div> -->
 
 </div>
